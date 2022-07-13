@@ -11,3 +11,194 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/************************css for button **************/
+#btn {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  height: 35px;
+  width: 130px;
+}
+
+label {
+  position: absolute;
+  top: 30%;
+  left: 37%;
+}
+
+/**********Top Tooltip CSS***********/
+
+#top {
+  position: absolute;
+  top: 40%;
+  height: 46px;
+  left: 42%;
+  width: 150px;
+  padding-left: 20px;
+  border-radius: 5px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+#triangletop {
+  height: 0;
+  width: 0;
+  top: 46px;
+  position: absolute;
+  left: 55px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 16px solid powderblue;
+}
+
+/**********Bottom Tooltip***********/
+
+#bottom {
+  position: absolute;
+  top: 58%;
+  height: 46px;
+  left: 42%;
+  width: 150px;
+  padding-left: 20px;
+  border-radius: 5px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+#trianglebottom {
+  height: 0;
+  width: 0;
+  top: -16px;
+  position: absolute;
+  left: 55px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid powderblue;
+}
+
+
+/**************Left Tooltip***************/
+
+#left {
+  position: absolute;
+  top: 48%;
+  height: 46px;
+  left: 27%;
+  width: 150px;
+  border-radius: 5px;
+  padding-left: 20px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+#triangleleft {
+  height: 0;
+  width: 0;
+  top: 15px;
+  position: absolute;
+  left: 170px;
+  border-top: 8px solid transparent;
+  border-left: 16px solid powderblue;
+  border-bottom: 8px solid transparent;
+}
+
+/*****************Right Tooltip********************/
+
+#right {
+  position: absolute;
+  top: 48%;
+  height: 46px;
+  left: 102vh;
+  width: 150px;
+  padding-left: 20px;
+  border-radius: 5px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+#triangleright {
+  height: 0;
+  width: 0;
+  top: 16px;
+  position: absolute;
+  left: -16px;
+  border-bottom: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-right: 16px solid powderblue;
+}
+
+
+/******************Media queries for resposivness *****************************/
+@media screen and (max-width: 1250px) {
+  #right {
+    left: 55%;
+  }
+
+  #left {
+    left: 23%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #right {
+    left: 55%;
+  }
+
+  #left {
+    left: 21%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #right {
+    left: 57%;
+  }
+
+  #left {
+    left: 18%;
+  }
+}
+
+@media screen and (max-width: 877px) {
+  #right {
+    left: 60%;
+  }
+
+  #left {
+    left: 16%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  #right {
+    left: 63%;
+  }
+
+  #left {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 637px) {
+  #right {
+    left: 68%;
+  }
+
+  #left {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  #right {
+    left: 72%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #right {
+    left: 77%;
+  }
+}
+
